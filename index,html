@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEB17</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- Main 1(dekripsi) -->
+    <!-- Main 2(destinasi) -->
+
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>CEB #A17</h2>
+                <h1>Our Team</h1>
+            </div>
+            <div class="lessons">
+                <div class="lesson-team">
+                    <div class="team-icon">
+                        <img src="Gambar/people-2388584_1920.png">
+                        <p>Rizky Ainuna Wijaya</p>
+                    </div>
+                    <p class="text-contents"></p>
+                </div>
+                <div class="lesson-team">
+                    <div class="team-icon">
+                        <img src="Gambar/people-2388584_1920.png">
+                        <p>Yanuwar</p>
+                    </div>
+                    <p class="text-contents"></p>
+                </div>
+                <div class="lesson-team">
+                    <div class="team-icon">
+                        <img src="Gambar/people-2388584_1920.png">
+                        <p>Rofiq</p>
+                    </div>
+                    <p class="text-contents"></p>
+                </div>
+                <div class="lesson-team">
+                    <div class="team-icon">
+                        <img src="Gambar/people-2388584_1920.png">
+                        <p>Ibnu Sulistyo</p>
+                    </div>
+                    <p class="text-contents"></p>
+                </div>
+                <div class="lesson-team">
+                    <div class="team-icon">
+                        <img src="Gambar/people-2388584_1920.png">
+                        <p>Nur Isma</p>
+                    </div>
+                    <p class="text-contents"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+</body>
+
+</html>
