@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.lesson-wrapper {
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #5a4eff;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson-team {
+    float: left;
+    width: 20%;
+}
+
+.team-icon {
+    position: relative;
+}
+
+.team-icon p {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    color: white;
+    opacity: 0;
+}
+
+.team-icon:hover p {
+    opacity: 1;
+}
+
+.team-icon img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.team-icon img:hover {
+    height: 200px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
