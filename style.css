@@ -109,3 +109,28 @@ a {
     padding: 10px 15px;
     color: white;
 }
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-contact {
+  float: right;
+}
+
+.footer-contact li {
+  padding-bottom: 20px;
+}
+
+.footer-subscribe {
+  float: left;
+}
