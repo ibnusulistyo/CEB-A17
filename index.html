@@ -14,19 +14,24 @@
 <body>
     <!-- Header -->
     <div class="header">
-        <div class="header-logo">EasyGoing Travel </div>
-        <div class="header-list">
-          <a href="#" class="btn Home">Home</a>
-          <a href="#" class="btn Destination">Destination</a>
-          <a href="#" class="btn Promo">Promo and Schedule</a>
-          <a href="#" class="btn About Us">About Us</a>
+        <div class="container">
+            <div class="header-logo">EasyGoing Travel </div>
+            <!-- untuk responsif span -->
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-list">
+                <a href="#" class="btn Home">Home</a>
+                <a href="#" class="btn Destination">Destination</a>
+                <a href="#" class="btn Promo">Promo and Schedule</a>
+                <a href="#" class="btn About Us">About Us</a>
+            </div>
         </div>
-      </div>
+    </div>
     <!-- Main 1(dekripsi) -->
     <div class="top-wrapper">
         <div class="container">
             <h1>EasyGoing Travel</h1>
-            <p>EasyGoing Travel merupakan website penyedia layanan wisata terbaik di ranah domestik maupun manca negara</p>
+            <p>EasyGoing Travel merupakan website penyedia layanan wisata terbaik di ranah domestik maupun manca negara
+            </p>
             <p>Temukan berbagai destinasi wisata idaman anda di sini</p>
             <div class="btn-wrapper">
                 <a href="#" class="btn login">Pesan Sekarang</a>
@@ -35,6 +40,7 @@
     </div>
     <!-- Main 2(destinasi) -->
 
+    <!-- Main 3(team) -->
     <div class="lesson-wrapper">
         <div class="container">
             <div class="heading">
@@ -84,32 +90,33 @@
 
     <!-- Footer -->
     <div class="footer">
-        <div class="footer-logo"></div>
-            <b>EasyGoing Travel</b>
-        </div>
-    <div class="footer-contact">
-        <div>
-            <b>Contact</b>
-            <ul>
-                 <li><i class="fas fa-phone"></i> +6285399031983</Li>
-                 <li><i class="fas fa-envelope-square"></i> contact@easygoingtravel.id</li>
-                 <li><i class="fab fa-instagram"></i> @easygoingtravel.id</li>
-                 <li><i class="fas fa-map-marker-alt"></i> Jl. C Simanjuntak Yogyakarta, 55223</li>
-            </ul>
-    </div>
-    <div class="footer-subscribe">
-                <h3>Subscribe</h3>
-                <p>Dapatkan promo eksklusif cukup dengan mendaftarkan email kamu</p>
-                <div class="input-group-langon">
+        <div class="container">
+            <div class="footer-logo">
+                <h>EasyGoing Travel</h>
+            </div>
+
+            <div class="footer-contact">
+                <div class="contact-left">
+                    <p>Contact</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> +6285399031983</Li>
+                        <li><i class="fas fa-envelope-square"></i> contact@easygoingtravel.id</li>
+                        <li><i class="fab fa-instagram"></i> @easygoingtravel.id</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. C Simanjuntak Yogyakarta, 55223</li>
+                    </ul>
+                </div>
+                <div class="contact-right">
+                    <h3>Subscribe</h3>
+                    <p>Dapatkan promo eksklusif cukup dengan mendaftarkan email kamu</p>
+                    <div class="input-email">
                         <input type="text" placeholder="Your Email" name="email">
                         <input type="hidden" name="redirect" value="http://easygoingtravel.id">
+                    </div>
+                    <button class="btn btn-primary">Subscribe</button>
                 </div>
-                <button class="btn btn-primary">Subscribe</button>
             </div>
-        </form>
+        </div>
     </div>
-</div>
-</footer>
 
 </body>
 
