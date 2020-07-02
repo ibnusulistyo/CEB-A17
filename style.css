@@ -20,8 +20,81 @@ a {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
+/* Header */
+.header {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 3.25em;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    color: white;
+    background-color: black;
+    float: left;
+    padding: 12px 10px;
+    font-size: 25px;
+}
+
+.header-list {
+    color: white;
+    float: right;
+    text-align: right;
+    margin-right: -25px;
+}
+
+.header-list a {
+    line-height: 45px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+/* Dekripsi */
+.top-wrapper {
+    background-image: url(gambar/image-top.jpg);
+    background-size: cover;
+    text-align: left;
+    padding: 180px 0 200px 0;
+    color: white;
+
+}
+
+.container h1 {
+    font-size: 60px;
+    margin: 10px 0 5px 0;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn {
+    border-radius: 30px;
+    border: solid 2px white;
+}
+
+.btn:hover {
+    color: #5a4eff;
+    background-color: white;
+}
+
+.btn-wrapper a {
+    padding: 10px 15px;
+    color: white;
+}
+
+/* Destinasi */
+
+/* Team */
 .lesson-wrapper {
     padding-bottom: 30px;
     padding-left: 5%;
@@ -77,91 +150,38 @@ a {
     font-size: 15px;
     color: #ffffff;
 }
-.top-wrapper {
-    background-image: url(gambar/image-top.jpg);
-    background-size: cover;
-    text-align: left;
-    padding: 180px 0 200px 0;
-    color: white;
 
-}
-.container {
-    width:1170px;
-    margin: auto;
-    font-family: sans-serif;
-}
-.container h1 {
-    font-size:60px;
-    margin:10px 0 5px 0;
-}
-.btn-wrapper {
-    margin: 20px 0;
-}
-.btn {
-    border-radius: 30px;
-    border:solid 2px white;
-}
-.btn:hover {
-    color: #5a4eff;
-    background-color: white;
-}
-.btn-wrapper a {
-    padding: 10px 15px;
-    color: white;
-}
-
+/* Footer */
 .footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
-
+    color: rgb(255, 249, 249);
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    background-color: #2f5167;
 }
 
 .footer-logo {
-  font-size: 32px;
-  float: left;
+    font-size: 32px;
 }
 
 .footer-contact {
-  float: right;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer-contact li {
-  padding-bottom: 20px;
+.footer-contact div {
+    flex: auto;
+    width: 50%;
 }
 
-.footer-subscribe {
-  float: left;
+.contact-list li {
+    padding-bottom: 20px;
 }
 
-.header{
-  background-color: black;
-  opacity: 0.6;
-  width:100%;
-  height:3.25em;
-}
-.header-logo{
-  color: white;
-  background-color: black;
-  float:left;
-  padding: 12px 10px;
-  font-size: 25px;
-}
-.header-list a{
-  color: white;
-  float: right;
-  text-align: right;
-}
-.btn {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  color: white;
-  display: block;
-  opacity: 0.8;
-}
-.btn:hover{
-  opacity: 0.3;
+.input-email input {
+    width: 220px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
