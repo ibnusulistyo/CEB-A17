@@ -93,6 +93,97 @@ a {
 }
 
 /* Destinasi */
+.main2 {
+  height: 350px;
+  background-color: #f4f1d6;
+  padding: 30px 50px;
+  background-size: cover;
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+.heading-main2 {
+  font-size: 18px;
+  text-align: left
+}
+
+.criteria-icon {
+  float: left;
+  width: 25%;
+  text-align: left;
+  padding: 0 25px;
+}
+
+.criteria-icon p {
+  font-size: 16px;
+  font-weight: normal;
+
+}
+
+.criteria-icon h3 {
+  color: gray;
+}
+
+
+.bton {
+  padding: 100px 0;
+  color: black;
+  font-size: 30px;
+  float: left;
+  margin: 0 75px;
+  width: 90%;
+  opacity: 0.75;
+  transition: all 0.5s;
+}
+
+.bton:hover {
+  opacity:1
+}
+
+.destinasi {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Helvetica";
+}
+
+.destinasi-wrapper {
+  margin-top: 75px;
+  line-height: 10px;
+}
+
+.bali {
+  background-color: yellow;
+  background-image: url(Gambar/travelzoom.com_-750x375.jpg);
+  background-size: cover;
+}
+
+.destinasi-heading {
+  padding-top: 30px;
+  padding-left: 35px;
+  font-size: 50px;
+}
+
+.lombok {
+  background-image: url(Gambar/gili_trawangan_lombok-ac61d-2777_281.jpg);
+  background-size: cover;
+}
+
+.flores {
+  background-color: green;
+  background-image: url(Gambar/WhatsApp-Image-2019-04-25-at-19.00.08-640x428.jpeg);
+  background-size: cover;
+}
+
+.rajaampat {
+  margin-bottom: 50px;
+  background-image: url(Gambar/tips-wisata-ke-Raja-Ampat-Papua-768x510.jpg);
+  background-size: cover;
+}
+
+.criteria-image{
+  width: ;
+  height: 75px;
+}
 
 /* Team */
 .lesson-wrapper {
