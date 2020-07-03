@@ -151,7 +151,7 @@ a {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 30px;
-    background-color: #5a4eff;
+    background-color: darkblue;
     text-align: center;
     font-family: "Helvetica";
 }
@@ -160,6 +160,7 @@ a {
     padding-top: 30px;
     padding-left: 35px;
     font-size: 50px;
+    color: rgb(243, 223, 214);
 }
 
 .bali {
