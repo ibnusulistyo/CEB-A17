@@ -58,13 +58,25 @@ a {
     transition: all 0.5s;
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
 /* Dekripsi */
 .top-wrapper {
     background-image: url(Gambar/image-top.jpg);
     background-size: cover;
     text-align: left;
-    padding: 180px 0 200px 0;
+    /* padding: 180px 0 200px 0; */
     color: white;
+    padding-bottom: 180px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 180px;
 
 }
 
@@ -94,109 +106,118 @@ a {
 
 /* Destinasi */
 .main2 {
-  height: 400px;
-  background-color: #f4f1d6;
-  padding: 30px 70px;
-  background-size: cover;
-  text-align: center;
-  font-family: "Helvetica";
+    padding-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 30px;
+    background-color: #f4f1d6;
+    text-align: center;
+    font-family: "Helvetica";
 }
 
 .heading-main2 {
-  font-size: 18px;
-  text-align: left;
+    font-size: 32px;
+    text-align: left;
+}
+
+.criteria {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .criteria-icon {
-  float: left;
-  width: 30%;
-  text-align: left;
-  padding: 0 25px;
+    flex: auto;
+    width: 33%;
+    text-align: left;
+}
+
+.criteria-icon img {
+    height: 75px;
 }
 
 .criteria-icon p {
-  font-size: 16px;
-  font-weight: normal;
-
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .criteria-icon h3 {
-  color: gray;
+    color: gray;
 }
 
-
-.bton {
-  padding: 100px 0;
-  color: black;
-  font-size: 30px;
-  float: left;
-  margin: 0 75px;
-  width: 90%;
-  opacity: 0.75;
-  transition: all 0.5s;
-}
-
-.bton:hover {
-  opacity:1
-}
-
+/* destinasi */
 .destinasi {
-  text-align: center;
-  margin-top: 50px;
-  font-family: "Helvetica";
-}
-
-.destinasi-wrapper {
-  margin-top: 75px;
-  line-height: 10px;
-}
-
-.bali {
-  background-color: yellow;
-  background-image: url(Gambar/travelzoom.com_-750x375.jpg);
-  background-size: cover;
+    padding-bottom: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 30px;
+    background-color: #5a4eff;
+    text-align: center;
+    font-family: "Helvetica";
 }
 
 .destinasi-heading {
-  padding-top: 30px;
-  padding-left: 35px;
-  font-size: 50px;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 50px;
+}
+
+.bali {
+    background-color: yellow;
+    background-image: url(Gambar/travelzoom.com_-750x375.jpg);
+    background-size: cover;
 }
 
 .lombok {
-  background-image: url(Gambar/gili_trawangan_lombok-ac61d-2777_281.jpg);
-  background-size: cover;
+    background-image: url(Gambar/gili_trawangan_lombok-ac61d-2777_281.jpg);
+    background-size: cover;
 }
 
 .flores {
-  background-color: green;
-  background-image: url(Gambar/WhatsApp-Image-2019-04-25-at-19.00.08-640x428.jpeg);
-  background-size: cover;
+    background-color: green;
+    background-image: url(Gambar/WhatsApp-Image-2019-04-25-at-19.00.08-640x428.jpeg);
+    background-size: cover;
 }
 
 .rajaampat {
-  margin-bottom: 50px;
-  background-image: url(Gambar/tips-wisata-ke-Raja-Ampat-Papua-768x510.jpg);
-  background-size: cover;
+    margin-bottom: 50px;
+    background-image: url(Gambar/tips-wisata-ke-Raja-Ampat-Papua-768x510.jpg);
+    background-size: cover;
 }
 
-.criteria-image{
-  width: ;
-  height: 75px;
+.destinasi-wrapper ul {
+    list-style: none;
 }
+
+.destinasi-wrapper ul li a {
+    width: 100%;
+    color: white;
+    display: block;
+    padding: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    opacity: 0.75;
+    transition: all 0.5s;
+}
+
+.destinasi-wrapper ul li a:hover {
+    opacity: 1
+}
+
 /* Team */
 .lesson-wrapper {
     padding-bottom: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #5a4eff;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #f4f1d6;
     text-align: center;
 }
 
 .heading {
     padding-top: 80px;
     padding-bottom: 50px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .heading h2 {
@@ -216,7 +237,7 @@ a {
     position: absolute;
     top: 95%;
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 0;
 }
 
@@ -245,10 +266,10 @@ a {
 .footer {
     color: rgb(255, 249, 249);
     padding-bottom: 30px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-top: 30px;
-    background-color: #2f5167;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .footer-logo {
@@ -275,3 +296,5 @@ a {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+/* =========== */
