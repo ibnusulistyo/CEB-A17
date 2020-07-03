@@ -1,0 +1,48 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .header-logo {
+        padding: 12px 5px;
+        font-size: 15px;
+    }
+
+    .header-list a {
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    .container h1 {
+        font-size: 45px;
+    }
+
+    .lesson-team {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+
+    .criteria-icon {
+        width: 100%;
+    }
+
+    .lesson-team {
+        width: 100%;
+    }
+
+    .footer-contact div {
+        width: 100%;
+    }
+}
